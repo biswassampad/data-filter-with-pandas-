@@ -40,6 +40,50 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "                        Name Type 1  HP\n",
+      "0                  Bulbasaur  Grass  45\n",
+      "1                    Ivysaur  Grass  60\n",
+      "2                   Venusaur  Grass  80\n",
+      "3      VenusaurMega Venusaur  Grass  80\n",
+      "4                 Charmander   Fire  39\n",
+      "5                 Charmeleon   Fire  58\n",
+      "6                  Charizard   Fire  78\n",
+      "7  CharizardMega Charizard X   Fire  78\n",
+      "8  CharizardMega Charizard Y   Fire  78\n",
+      "9                   Squirtle  Water  44\n"
+     ]
+    }
+   ],
+   "source": [
+    "#reading headers\n",
+    "df.columns\n",
+    "\n",
+    "#reading each column\n",
+    "#print(df['Name'][0:5])\n",
+    "#print(df.Name)\n",
+    "#df.Name\n",
+    "\n",
+    "#reading multiple columns\n",
+    "#print(df[['Name','Type 1','HP']])\n",
+    "#print(df[['Name','Type 1','HP']][0:10])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
